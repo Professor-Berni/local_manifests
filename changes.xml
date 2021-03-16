@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!--removes /-->
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_frameworks_native" />
+  <remove-project name="LineageOS/android_packages_apps_Contacts" />
+  <remove-project name="LineageOS/android_packages_apps_ContactsCommon" />
+  <remove-project name="LineageOS/android_packages_apps_Dialer" />
+  <remove-project name="LineageOS/android_packages_apps_ExactCalculator" />
+  <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
+  <remove-project name="LineageOS/android_packages_apps_PhoneCommon" />
+  <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <remove-project name="LineageOS/android_system_sepolicy" />
+  <remove-project name="LineageOS/android_vendor_cm" />
+  <!--re-add's /-->
+  <project path="frameworks/base"
+           name="Professor-Berni/android_frameworks_base"
+           remote="github"
+           revision="cm-14.1-osm" />
+  <project path="frameworks/native"
+           name="Professor-Berni/android_frameworks_native"
+           remote="github"
+           revision="cm-14.1-osm" />
+  <project path="packages/apps/Contacts"
+           name="Professor-Berni/android_packages_apps_Contacts"
+           remote="github"
+           revision="cm-14.1-osm" />
+  <project path="packages/apps/ContactsCommon"
+           name="Professor-Berni/android_packages_apps_ContactsCommon"
+           remote="github"
+           revision="cm-14.1-osm" />
+  <project path="packages/apps/Dialer"
+           name="Professor-Berni/android_packages_apps_Dialer"
+           remote="github"
+           revision="cm-14.1-osm" />
+  <project path="packages/apps/ExactCalculator"
+           name="Professor-Berni/android_packages_apps_ExactCalculator"
+           remote="github"
+           revision="cm-14.1-osm" />
+  <project path="packages/apps/PackageInstaller"
+           name="Professor-Berni/android_packages_apps_PackageInstaller"
+           remote="github"
+           revision="cm-14.1-osm" />
+  <project path="packages/apps/PhoneCommon"
+           name="Professor-Berni/android_packages_apps_PhoneCommon"
+           remote="github"
+           revision="cm-14.1-osm" />
+  <project path="packages/apps/Settings"
+           name="Professor-Berni/android_packages_apps_Settings"
+           remote="github"
+           revision="cm-14.1-osm" />
+  <project path="system/sepolicy"
+           name="Professor-Berni/android_system_sepolicy"
+           remote="github"
+           revision="cm-14.1-osm" />
+  <project path="vendor/cm"
+           name="Professor-Berni/android_vendor_cm"
+           remote="github"
+           revision="cm-14.1-osm" />
+</manifest>

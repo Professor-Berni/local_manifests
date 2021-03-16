@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="kernel/sony/msm8994"
+           name="Professor-Berni/android_kernel_sony_msm8994"
+           remote="github"
+           revision="cm-14.1" />
+</manifest>
