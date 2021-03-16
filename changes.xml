@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!--removes /-->
+  <remove-project name="LineageOS/android_hardware_qcom_camera" />
+  <remove-project name="LineageOS/android_hardware_qcom_fm" />
+  <remove-project name="LineageOS/android_packages_apps_Camera2" />
+  <remove-project name="LineageOS/android_packages_apps_FMRadio" />
+</manifest>
