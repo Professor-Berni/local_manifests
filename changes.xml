@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- removes /-->
+  <remove-project name="LineageOS/android_packages_apps_Camera2" />
+  <!-- AOSP camera /-->
+  <remove-project name="platform/hardware/qcom/camera" />
+</manifest>

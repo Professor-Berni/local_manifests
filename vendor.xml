@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- FDroid -->
+  <project name="cryptomilk/android_vendor_fdroid"
+           path="vendor/fdroid"
+           remote="github"
+           revision="master" />
+  <!-- Vendor -->
+  <project name="Professor-Berni/proprietary_vendor_sony"
+           path="vendor/sony"
+           remote="github"
+           revision="lineage-17.1" />
+  <!-- Extra vendor blob's -->
+  <project name="Professor-Berni/proprietary_vendor_sony_extras"
+           path="vendor/sony/kitakami-common-extras"
+           remote="github"
+           revision="lineage-17.1" />
+</manifest>
