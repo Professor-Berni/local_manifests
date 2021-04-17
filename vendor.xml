@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- FDroid -->
-  <project name="cryptomilk/android_vendor_fdroid"
+  <project name="Professor-Berni/android_vendor_fdroid"
            path="vendor/fdroid"
            remote="github"
            revision="master" />
