@@ -3,10 +3,4 @@
   <!--removes /-->
   <!-- AOSP /-->
   <remove-project name="platform/hardware/qcom/camera" />
-  <remove-project name="platform/system/libhidl" />
-  <!-- Re-Add /-->
-  <project name="TALUAtGitHub/platform_system_libhidl"
-           path="system/libhidl"
-           remote="github"
-           revision="android-11" />
 </manifest>
