@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!--removes /-->
+  <remove-project name="LineageOS/android_hardware_lineage_interfaces" />
   <!-- AOSP /-->
   <remove-project name="platform/hardware/qcom/camera" />
+  <!-- re-adds /-->
+  <project name="Sony-MSM8994-Dev/android_hardware_lineage_interfaces"
+           path="hardware/lineage/interfaces"
+           remote="github"
+           revision="lineage-18.1" />
 </manifest>
