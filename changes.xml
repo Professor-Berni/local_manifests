@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!--removes /-->
+  <remove-project name="LineageOS/android_hardware_qcom_audio" />
+  <!-- AOSP /-->
+  <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/media" />
+  <!-- re-adds /-->
+  <project name="Sony-MSM8994-Dev/android_hardware_qcom_display"
+           path="hardware/qcom-caf/msm8994/display"
+           remote="github"
+           revision="lineage-18.1-caf-msm8994" />
+  <project name="LineageOS/android_hardware_qcom_audio"
+           path="hardware/qcom-caf/msm8994/audio"
+           remote="github"
+           revision="lineage-18.1-caf-msm8994" />
+  <project name="LineageOS/android_hardware_qcom_media"
+           path="hardware/qcom-caf/msm8994/media"
+           remote="github"
+           revision="lineage-18.1-caf-msm8994" />
+</manifest>

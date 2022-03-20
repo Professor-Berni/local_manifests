@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="LineageOS/android_hardware_broadcom_fm"
+           path="hardware/broadcom/fm"
+           remote="github"
+           revision="lineage-18.1" />
+  <project name="LineageOS/android_vendor_qcom_opensource_libfmjni"
+           path="vendor/qcom/opensource/libfmjni"
+           remote="github"
+           revision="lineage-18.1" />
+  <project name="LineageOS/android_packages_apps_FMRadio"
+           path="packages/apps/FMRadio"
+           remote="github"
+           revision="lineage-18.1" />
+</manifest>
