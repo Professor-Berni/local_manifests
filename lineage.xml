@@ -8,8 +8,4 @@
            path="vendor/qcom/opensource/libfmjni"
            remote="github"
            revision="lineage-18.1" />
-  <project name="LineageOS/android_packages_apps_FMRadio"
-           path="packages/apps/FMRadio"
-           remote="github"
-           revision="lineage-18.1" />
 </manifest>

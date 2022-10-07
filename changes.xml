@@ -4,7 +4,7 @@
   <remove-project name="LineageOS/android_hardware_qcom_audio" />
   <remove-project name="LineageOS/android_hardware_qcom_display" />
   <remove-project name="LineageOS/android_hardware_qcom_media" />
-  <remove-project name="LineageOS/android_packages_apps_Camera2" />
+  <remove-project name="LineageOS-UL/android_device_qcom_sepolicy" />
   <!-- re-adds /-->
   <project name="LineageOS/android_hardware_qcom_audio"
            path="hardware/qcom-caf/msm8994/audio"
@@ -14,10 +14,6 @@
            path="hardware/qcom-caf/msm8994/media"
            remote="github"
            revision="lineage-18.1-caf-msm8994" />
-  <project name="LineageOS/android_packages_apps_Snap"
-           path="packages/apps/Snap"
-           remote="github"
-           revision="lineage-18.1" />
   <project name="Professor-Berni/android_device_qcom_sepolicy"
            path="device/qcom/sepolicy-legacy"
            remote="github"
@@ -25,5 +21,5 @@
   <project name="Professor-Berni/android_hardware_qcom_display"
            path="hardware/qcom-caf/msm8994/display"
            remote="github"
-           revision="lineage-18.1-caf-msm8994" />
+           revision="lineage-20.0-caf-msm8994" />
 </manifest>
