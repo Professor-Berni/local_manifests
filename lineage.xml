@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="LineageOS-UL/android_hardware_sony_timekeep"
+           path="hardware/sony/timekeep"
+           remote="github"
+           revision="lineage-20.0" />
+</manifest>
