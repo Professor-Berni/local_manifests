@@ -14,5 +14,5 @@
   <project name="Professor-Berni/proprietary_vendor_sony_extras"
            path="vendor/sony/kitakami-common-extras"
            remote="github"
-           revision="lineage-19.1" />
+           revision="lineage-20.0" />
 </manifest>
