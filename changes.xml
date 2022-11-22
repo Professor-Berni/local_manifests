@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!--removes /-->
-  <remove-project name="LineageOS/android_hardware_qcom_audio" />
-  <remove-project name="LineageOS/android_hardware_qcom_display" />
-  <remove-project name="LineageOS/android_hardware_qcom_media" />
   <remove-project name="LineageOS-UL/android_device_qcom_sepolicy" />
+  <remove-project name="LineageOS-UL/android_hardware_qcom_audio" />
+  <remove-project name="LineageOS-UL/android_hardware_qcom_display" />
+  <remove-project name="LineageOS-UL/android_hardware_qcom_media" />
   <!-- re-adds /-->
   <project name="LineageOS/android_hardware_qcom_audio"
            path="hardware/qcom-caf/msm8994/audio"
