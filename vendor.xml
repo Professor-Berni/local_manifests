@@ -5,6 +5,11 @@
            path="vendor/fdroid"
            remote="github"
            revision="master" />
+  <!-- microG -->
+  <project name="Professor-Berni/android_vendor_microG"
+           path="vendor/microG"
+           remote="github"
+           revision="master" />
   <!-- Vendor -->
   <project name="Professor-Berni/proprietary_vendor_sony"
            path="vendor/sony"
