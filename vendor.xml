@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- AuroraServices -->
+  <project name="Professor-Berni/android_vendor_AuroraServices"
+           path="vendor/AuroraServices"
+           remote="github"
+           revision="master" />
   <!-- FDroid -->
   <project name="Professor-Berni/android_vendor_fdroid"
            path="vendor/fdroid"
