@@ -4,14 +4,6 @@
            path="hardware/broadcom/fm"
            remote="github"
            revision="lineage-18.1" />
-  <project name="LineageOS/android_vendor_qcom_opensource_libfmjni"
-           path="vendor/qcom/opensource/libfmjni"
-           remote="github"
-           revision="lineage-18.1" />
-  <project name="LineageOS/android_packages_apps_FMRadio"
-           path="packages/apps/FMRadio"
-           remote="github"
-           revision="lineage-18.1" />
   <project name="LineageOS-UL/android_hardware_sony_timekeep"
            path="hardware/sony/timekeep"
            remote="github"
