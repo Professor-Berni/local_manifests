@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- removes /-->
-  <remove-project name="LineageOS/android_packages_apps_Camera2" />
-  <!-- AOSP camera /-->
+  <!-- AOSP removals /-->
   <remove-project name="platform/hardware/qcom/camera" />
+  <remove-project name="platform/hardware/intel/audio_media" />
+  <remove-project name="platform/hardware/intel/common/bd_prov" />
+  <remove-project name="platform/hardware/intel/common/libstagefrighthw" />
+  <remove-project name="platform/hardware/intel/common/libva" />
+  <remove-project name="platform/hardware/intel/common/libwsbm" />
+  <remove-project name="platform/hardware/intel/common/wrs_omxil_core" />
+  <remove-project name="platform/hardware/intel/sensors" />
+  <!-- LineageOS removals /-->
+  <remove-project name="LineageOS/android_packages_apps_Camera2" />
 </manifest>
