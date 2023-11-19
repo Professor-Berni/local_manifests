@@ -3,9 +3,9 @@
   <project name="Professor-Berni/android_device_sony_kitakami-common"
            path="device/sony/kitakami-common"
            remote="github"
-           revision="lineage-20.0" />
+           revision="lineage-21.0" />
   <project name="Professor-Berni/android_device_sony_suzuran"
            path="device/sony/suzuran"
            remote="github"
-           revision="lineage-20.0" />
+           revision="lineage-21.0" />
 </manifest>
