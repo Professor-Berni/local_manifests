@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!--removes /-->
-  <remove-project name="LineageOS-UL/android_device_qcom_sepolicy" />
   <remove-project name="LineageOS-UL/android_hardware_qcom_audio" />
   <remove-project name="LineageOS-UL/android_hardware_qcom_display" />
   <remove-project name="LineageOS-UL/android_hardware_qcom_media" />
@@ -14,10 +13,6 @@
            path="hardware/qcom-caf/msm8994/media"
            remote="github"
            revision="lineage-21.0-caf-msm8994" />
-  <project name="Professor-Berni/android_device_qcom_sepolicy"
-           path="device/qcom/sepolicy-legacy"
-           remote="github"
-           revision="lineage-21.0-legacy" />
   <project name="Professor-Berni/android_hardware_qcom_display"
            path="hardware/qcom-caf/msm8994/display"
            remote="github"
