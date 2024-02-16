@@ -16,4 +16,5 @@
   <remove-project name="platform/hardware/invensense" />
   <remove-project name="platform/prebuilts/android-emulator" />
   <remove-project name="platform/prebuilts/qemu-kernel" />
+  <remove-project name="LineageOS/android_hardware_qcom_display" />
 </manifest>
