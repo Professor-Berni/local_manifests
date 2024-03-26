@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remove-project name="LineageOS-UL/android_device_lineage_sepolicy" />
-  <remove-project name="LineageOS-UL/android_system_sepolicy" />
   <project name="Professor-Berni/android_device_lineage_sepolicy"
            path="device/lineage/sepolicy"
-           remote="github"
-           revision="lineage-21.0" />
-  <project name="Professor-Berni/android_system_sepolicy"
-           path="system/sepolicy"
            remote="github"
            revision="lineage-21.0" />
 </manifest>
