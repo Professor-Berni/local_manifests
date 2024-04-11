@@ -9,7 +9,7 @@
   <project name="Professor-Berni/android_vendor_fdroid"
            path="vendor/fdroid"
            remote="github"
-           revision="master" />
+           revision="U-master" />
   <!-- microG -->
   <project name="Professor-Berni/android_vendor_microG"
            path="vendor/microG"
