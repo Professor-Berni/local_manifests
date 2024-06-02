@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="LineageOS-UL/android_packages_modules_adb" />
+  <project name="LineageOS-UL/android_packages_modules_adb"
+           path="packages/modules/adb"
+           remote="github"
+           revision="lineage-21.0-qpr1" />
+</manifest>
