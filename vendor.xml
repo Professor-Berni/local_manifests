@@ -14,7 +14,7 @@
   <project name="Professor-Berni/proprietary_vendor_sony"
            path="vendor/sony"
            remote="github"
-           revision="lineage-21.0-ims" />
+           revision="lineage-21.0" />
   <!-- Extra vendor blob's -->
   <project name="Professor-Berni/proprietary_vendor_sony_extras"
            path="vendor/sony/kitakami-common-extras"
