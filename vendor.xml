@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- FDroid -->
+  <project name="Professor-Berni/android_vendor_fdroid"
+           path="vendor/fdroid"
+           remote="github"
+           revision="U-master" />
+  <!-- microG -->
+  <project name="Professor-Berni/android_vendor_microG"
+           path="vendor/microG"
+           remote="github"
+           revision="master" />
+  <!-- Vendor -->
+  <project name="Professor-Berni/proprietary_vendor_sony"
+           path="vendor/sony"
+           remote="github"
+           revision="lineage-21.0" />
+  <!-- Extra vendor blob's -->
+  <project name="Professor-Berni/proprietary_vendor_sony_extras"
+           path="vendor/sony/kitakami-common-extras"
+           remote="github"
+           revision="lineage-21.0" />
+</manifest>
