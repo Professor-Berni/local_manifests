@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Changelog -->
+  <project name="Professor-Berni/android_vendor_google_tools"
+           path="vendor/google/tools"
+           remote="github"
+           revision="master" />
+  <!-- FDroid -->
+  <project name="Professor-Berni/android_vendor_fdroid"
+           path="vendor/fdroid"
+           remote="github"
+           revision="U-master" />
+  <!-- microG -->
+  <project name="Professor-Berni/android_vendor_microG"
+           path="vendor/microG"
+           remote="github"
+           revision="master" />
+  <!-- Vendor -->
+  <project name="Professor-Berni/proprietary_vendor_sony"
+           path="vendor/sony"
+           remote="github"
+           revision="lineage-23.2" />
+</manifest>

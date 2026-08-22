@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="LineageOS/android_hardware_sony_timekeep"
+           path="hardware/sony/timekeep"
+           remote="github"
+           revision="lineage-23.2" />
+  <project name="LineageOS/android_hardware_sony_macaddrsetup"
+           path="hardware/sony/macaddrsetup"
+           remote="github"
+           revision="lineage-23.2" />
+</manifest>
