@@ -2,13 +2,13 @@
 <!--
   LineageOS 23.2 (Android 16) - Sony Xperia Z5 Compact
   Codenames: suzuran (E58xx) / kitakami-common (shared)
-  Maintainer: Joseefitness- org: https://github.com/LineageOS-23-2-Z5P
+  Maintainer: Joseefitness- org: https://github.com/LineageOS-Sony-MSM8994
 -->
 <manifest>
 
   <!-- Release org: all modified repos, branch lineage-23.2 -->
   <remote name="z5p"
-          fetch="https://github.com/LineageOS-23-2-Z5P/"
+          fetch="https://github.com/LineageOS-Sony-MSM8994"
           revision="lineage-23.2" />
 
   <!-- ============================================================= -->
