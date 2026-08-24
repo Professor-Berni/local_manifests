@@ -10,11 +10,14 @@
   <remote name="z5p"
           fetch="https://github.com/LineageOS-Sony-MSM8994"
           revision="lineage-23.2" />
+  <remote name="josee"
+          fetch="https://github.com/Joseefitness"
+          revision="lineage-23.2" />
 
   <!-- ============================================================= -->
   <!--  Device trees / kernel / vendor / device HALs                 -->
   <!-- ============================================================= -->
-  <project name="android_hardware_qcom_display"        path="hardware/qcom-caf/msm8994/display" remote="z5p" />
+  <project name="android_hardware_qcom_display"        path="hardware/qcom-caf/msm8994/display" remote="josee" />
   <project name="android_hardware_lineage_livedisplay" path="hardware/lineage/livedisplay"      remote="z5p" />
 
   <!-- ============================================================= -->
