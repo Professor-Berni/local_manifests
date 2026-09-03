@@ -36,6 +36,9 @@
   <remove-project name="LineageOS/android_build_release" />
   <project name="android_build_release" path="build/release" remote="z5p" />
 
+  <remove-project name="platform/external/nanopb-c" />
+  <project name="android_external_nanopb-c" path="external/nanopb-c" remote="z5p" />
+
   <remove-project name="LineageOS/android_external_wpa_supplicant_8" />
   <project name="android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="z5p" />
 
