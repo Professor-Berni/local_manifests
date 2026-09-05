@@ -66,6 +66,9 @@
   <remove-project name="LineageOS/android_hardware_qcom_audio" />
   <project name="android_hardware_qcom_audio" path="hardware/qcom/audio" remote="z5p" />
 
+  <remove-project name="LineageOS/android_packages_apps_FMRadio" />
+  <project name="android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="z5p" />
+
   <remove-project name="LineageOS/android_packages_modules_Connectivity" />
   <project name="android_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="z5p" />
 
