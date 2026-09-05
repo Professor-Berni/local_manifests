@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="Sony-MSM8994-Dev/android_hardware_broadcom_fm"
+           path="hardware/broadcom/fm"
+           remote="github"
+           revision="lineage-21.0" />
+</manifest>
