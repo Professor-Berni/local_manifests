@@ -96,7 +96,7 @@
   <!-- ============================================================= -->
   <!--  Modified platform repos (AOSP-based) - override w/ fork      -->
   <!-- ============================================================= -->
-  <remove-project name="platform/art" />
+  <remove-project name="LineageOS/android_art" />
   <project name="android_art" path="art" remote="z5p" />
 
   <remove-project name="platform/hardware/ril" />
