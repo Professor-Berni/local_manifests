@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  LineageOS 24.0 (Android 17) - Sony Xperia Z3+/Z4, Z5 and Z5 Premium (kitakami, MSM8994)
+  LineageOS 24.0 (Android 17) - Sony Xperia Z3+/Z4, Z5, Z5 Compact and Z5 Premium (kitakami, MSM8994)
   Shared by every kitakami device, add the device manifest next to it.
   Maintainer: Joseefitness - org: https://github.com/LineageOS-Sony-MSM8994
 -->
@@ -12,7 +12,7 @@
           fetch="https://github.com/LineageOS-Sony-MSM8994/"
           revision="lineage-24.0" />
 
-  <!-- Personal profile: device trees, kernel, vendor and display HAL -->
+  <!-- Personal profile: kernel, and display HAL -->
   <remote name="joseefitness"
           fetch="https://github.com/Joseefitness/"
           revision="lineage-24.0" />
@@ -22,11 +22,9 @@
           fetch="https://github.com/LineageOS/"
           revision="lineage-24.0" />
 
-  <!-- ============================================================= -->
-  <!--  Common tree / kernel / vendor / device HALs                  -->
-  <!-- ============================================================= -->
-  <project name="android_device_sony_kitakami-common"  path="device/sony/kitakami-common"       remote="joseefitness" />
-  <project name="proprietary_vendor_sony"              path="vendor/sony"                       remote="joseefitness" />
+  <!-- ====================================== -->
+  <!--  Kernel / device HALs                  -->
+  <!-- ====================================== -->
   <project name="android_kernel_sony_msm8994"          path="kernel/sony/msm8994"               remote="joseefitness" />
   <project name="android_hardware_qcom_display"        path="hardware/qcom-caf/msm8994/display" remote="joseefitness" />
   <project name="android_hardware_lineage_livedisplay" path="hardware/lineage/livedisplay"      remote="msm8994" />
