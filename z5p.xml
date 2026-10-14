@@ -17,6 +17,7 @@
   <!-- ============================================================= -->
   <!--  Device trees / kernel / vendor / device HALs                 -->
   <!-- ============================================================= -->
+  <project name="android_kernel_sony_msm8994"          path="kernel/sony/msm8994"               remote="josee" />
   <project name="android_hardware_qcom_display"        path="hardware/qcom-caf/msm8994/display" remote="josee" />
   <project name="android_hardware_lineage_livedisplay" path="hardware/lineage/livedisplay"      remote="z5p" />
 
