@@ -88,6 +88,9 @@
   <remove-project name="LineageOS/android_system_core" />
   <project name="android_system_core" path="system/core" remote="z5p" />
 
+  <remove-project name="platform/system/memory/lmkd" />
+  <project name="android_system_memory_lmkd" path="system/memory/lmkd" remote="z5p" />
+
   <remove-project name="LineageOS/android_system_netd" />
   <project name="android_system_netd" path="system/netd" remote="z5p" />
 
