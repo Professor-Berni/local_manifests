@@ -57,6 +57,9 @@
   <remove-project name="platform/system/zygote" />
   <project name="android_system_zygote" path="system/zygote" remote="msm8994" />
 
+  <remove-project name="platform/system/memory/lmkd" />
+  <project name="android_system_memory_lmkd" path="system/memory/lmkd" remote="msm8994" />
+
   <remove-project name="LineageOS/android_external_wpa_supplicant_8" />
   <project name="android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="msm8994" />
 
